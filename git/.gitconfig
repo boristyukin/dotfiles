@@ -1,0 +1,7 @@
+[user]
+	name = Boris Tyukin
+	email = boris@boristyukin.com
+[core]
+	autocrlf = input
+[color]
+	ui = auto
