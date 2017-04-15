@@ -13,4 +13,7 @@ fi
  # alias vimx if installed (system clipboard support)
  if [ -e /usr/bin/vimx ]; then alias vim='/usr/bin/vimx'; fi
 
-
+# solarized dircolors
+if [ -f ~/.dircolors ]
+    then eval `dircolors ~/.dircolors`
+fi
