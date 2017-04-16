@@ -10,12 +10,15 @@ My dotfiles are managed by GNU Stow - install it first.
 ```
 sudo yum install stow
 cd
-git clone repo dotfiles
+git clone https://github.com/boristyukin/dotfiles.git
 cd dotfiles
 ./install.sh
 ```
-## Gnome terminal solarized
-Optionally, install solarized theme for Gnome terminal
+## GNOME terminal solarized
+Optionally, install solarized theme for Gnome terminal.
+
+**Do not create dircolors file when you will be asked about it**.
+
 ```
 cd
 git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
