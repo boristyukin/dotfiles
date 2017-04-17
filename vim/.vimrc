@@ -46,6 +46,8 @@ noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
 
+" set mouse on
+:set mouse=a
 " enable/disable paste mode
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
