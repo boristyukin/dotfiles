@@ -57,7 +57,12 @@ else
 	yellow="\e[1;33m";
 fi;
 
-PS1="$BG\[${bold}\]\[${black}\]\u\[${reset}\]$BG\[${black}\]@\[${black}\]\h:" # user:host
+#Block style
+#PS1="$BG\[${bold}\]\[${black}\]\u\[${reset}\]$BG\[${black}\]@\[${black}\]\h:" # user:host
+#PS1+="\[${bold}\][\w]" # [directory]
+#PS1+="\[${reset}\] \[${white}\]\$\[${reset}\] "; # `$` (and reset color)
+
+PS1="\[${bold}\]\[${white}\]\u\[${reset}\]\[${white}\]@\[${white}\]\h:" # user:host
 PS1+="\[${bold}\][\w]" # [directory]
 PS1+="\[${reset}\] \[${white}\]\$\[${reset}\] "; # `$` (and reset color)
 export PS1;
