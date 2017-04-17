@@ -16,17 +16,14 @@ cd dotfiles
 ```
 ## GNOME terminal solarized
 Optionally, install solarized theme for Gnome terminal.
+
+> Note, that script below will ask if you want to install .dircolors - skip this step or it will mess it up.
+
 ```
 cd
 git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
 cd gnome-terminal-colors-solarized
 ./install.sh
-```
-Note that tool will put dircolors file in the wrong location for CentOS/Red Hat - move it to the proper location:
-
-```
-mv ~/.dir_colors/dircolors ~/.dircolors
-rm ~/.dir_colors -rf
 ```
 
 Close terminal and open again to check colors. Run `ls -l` to make sure ls does output colors.
