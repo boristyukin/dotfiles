@@ -2,6 +2,7 @@
 	name = Boris Tyukin
 	email = boris@boristyukin.com
 [core]
-	autocrlf = input
+    # commented due to issues with airflow repo
+    #autocrlf = input
 [color]
 	ui = auto

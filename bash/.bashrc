@@ -12,6 +12,9 @@ export TERM=xterm-256color
 # alias vimx if installed (system clipboard support)
 if [ -e /usr/bin/vimx ]; then alias vim='/usr/bin/vimx'; fi
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # solarized dircolors
 if [ -f ~/.dircolors ]
     then eval `dircolors ~/.dircolors`
