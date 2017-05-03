@@ -14,6 +14,7 @@ colorscheme solarized
 set clipboard=unnamed
 
 set number                " show line numbers
+set relativenumber        " show relative line numbers
 set laststatus=2          " last window always has a statusline
 filetype indent on        " activates indenting for files
 set nohlsearch            " Don't continue to highlight searched phrases.
@@ -28,7 +29,7 @@ set shiftround            " always indent/outdent to the nearest tabstop
 set expandtab             " use spaces instead of tabs
 set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " don't wrap text
-
+set cursorline            " highlight current cursor line
 autocmd BufNewFile,BufRead *.json set ft=javascript 	" use javascript syntax for json files
 autocmd BufNewFile,BufRead *.avsc set ft=javascript	" use javascript syntax for avro schemas
 " Treat .md files as Markdown
