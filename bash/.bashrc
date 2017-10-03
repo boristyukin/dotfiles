@@ -15,6 +15,10 @@ if [ -e /usr/bin/vimx ]; then alias vim='/usr/bin/vimx'; fi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+# python virtualenv alias
+alias va="cd ; source venv/bin/activate"
+alias vd="deactivate"
+
 # only run for interactive sessions, scp did not like this code, specifically tput
 if [ -t 0 ]; then
     # solarized dircolors
